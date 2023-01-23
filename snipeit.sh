@@ -363,7 +363,7 @@ case $distro in
     apache_group=www-data
     apachefile=/etc/apache2/sites-available/$APP_NAME.conf
     ;;
-  *centos*|*redhat*|*ol*|*rhel*|*rocky*)
+  *almalinux*|*centos*|*redhat*|*ol*|*rhel*|*rocky*)
     echo "  The installer has detected $distro version $version."
     distro=Centos
     apache_group=apache
